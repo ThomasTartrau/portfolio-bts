@@ -59,7 +59,7 @@ export const DATA = {
       logoUrl: "/savenay-hospital.png",
       start: "28 Octobre 2024",
       end: "30 Octobre 2024",
-      description: "Stage d'observation dans le service maintenance de l'hôpital.",
+      description: "Agent de maintenance.",
     },
     {
       company: "SCAOUEST",
@@ -70,7 +70,7 @@ export const DATA = {
       logoUrl: "/scaouest.png",
       start: "Juin 2024",
       end: "Juillet 2024",
-      description: "Expérience professionnelle en logistique pendant la période estivale.",
+      description: "Préparateur de commandes dans l'entrepôt de fruits et légumes.",
     }
   ],
   education: [
