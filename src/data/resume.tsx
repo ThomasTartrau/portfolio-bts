@@ -8,7 +8,7 @@ export const DATA = {
   location: "Nantes, France",
   locationLink: "https://www.google.com/maps/place/nantes",
   description:
-    "Dévoué et passionné par la technologie et l'innovation, je suis développeur fullstack et étudiant en informatique.",
+    "Assidu et passionné par la technologie et l'innovation, je suis développeur fullstack et étudiant en informatique.",
   summary:
     "Ma passion pour l'informatique a commencé très tôt, à l'âge de 12 ans, j'ai écrit mes premières lignes de code pour créer des serveurs Minecraft et des bots Discord. Cette expérience précoce m'a permis de découvrir le vaste monde de la programmation et m'a donné envie d'en faire mon métier.\n\nAujourd'hui, en tant qu'étudiant en informatique, je me concentre sur le développement web et applicatif fullstack, combinant ma passion pour la création d'interfaces utilisateur élégantes avec mon intérêt pour l'architecture backend robuste. Je suis particulièrement attiré par les technologies modernes comme React, Next.js et Rust, qui me permettent de créer des applications web performantes et innovantes.\n\nEn dehors de mes études, je contribue activement à des projets open source et je cherche constamment à approfondir mes connaissances en explorant de nouvelles technologies et frameworks. Mon objectif est de devenir un développeur polyvalent capable de relever les défis techniques les plus complexes tout en créant des solutions qui ont un impact positif sur les utilisateurs.",
   avatarUrl: "/me.png",
