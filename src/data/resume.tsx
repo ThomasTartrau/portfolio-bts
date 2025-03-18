@@ -214,6 +214,27 @@ export const DATA = {
       video: "",
     },
     {
+      title: "AE Staps Nantes",
+      href: "https://ae-staps-nantes.fr/",
+      dates: "Décembre 2024",
+      active: true,
+      description: "Création d'un site web pour l'association AE Staps Nantes. Le site permet d'afficher une présentation de l'association, son bureau, ses projets, partenariats, actualités, contacts, sa boutique et d'adhérer à l'association.",
+      technologies: [
+        "VueJS",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Site Web",
+          href: "https://ae-staps-nantes.fr/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/ae-staps-nantes.png",
+      video: "",
+    },
+    {
       title: "Portfolio personnel",
       href: "https://tartrau.fr",
       dates: "Octobre 2024",
