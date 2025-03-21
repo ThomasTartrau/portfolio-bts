@@ -1,5 +1,4 @@
 import { Icons } from "@/components/icons";
-import { title } from "process";
 
 export const DATA = {
   name: "Thomas Tartrau",
@@ -10,7 +9,7 @@ export const DATA = {
   description:
     "Assidu et passionné par la technologie et l'innovation, je suis développeur fullstack et étudiant en informatique.",
   summary:
-    "Ma passion pour l'informatique a commencé très tôt, à l'âge de 12 ans, j'ai écrit mes premières lignes de code pour créer des serveurs Minecraft et des bots Discord. Cette expérience précoce m'a permis de découvrir le vaste monde de la programmation et m'a donné envie d'en faire mon métier.\n\nAujourd'hui, en tant qu'étudiant en informatique, je me concentre sur le développement web et applicatif fullstack, combinant ma passion pour la création d'interfaces utilisateur élégantes avec mon intérêt pour l'architecture backend robuste. Je suis particulièrement attiré par les technologies modernes comme React, Next.js et Rust, qui me permettent de créer des applications web performantes et innovantes.\n\nEn dehors de mes études, je contribue activement à des projets open source et je cherche constamment à approfondir mes connaissances en explorant de nouvelles technologies et frameworks. Mon objectif est de devenir un développeur polyvalent capable de relever les défis techniques les plus complexes tout en créant des solutions qui ont un impact positif sur les utilisateurs.",
+    "Ma passion pour l'informatique a commencé à 12 ans avec la création de serveurs Minecraft et de bots Discord. Cette expérience m'a conduit à poursuivre une carrière dans le développement web et applicatif fullstack. J'aime créer des interfaces utilisateur attrayantes tout en veillant à la solidité de l'architecture backend. Je suis passionné par des technologies modernes comme React, Next.js et Rust, qui me permettent de développer des applications innovantes.\n\n En dehors de mes études, je m'engage dans des projets open source et je cherche constamment à apprendre. Mon objectif est de devenir un développeur polyvalent, capable de relever des défis techniques tout en apportant des solutions utiles aux utilisateurs.",
   avatarUrl: "/me.png",
   skills: [
     "Javascript / Typescript",
