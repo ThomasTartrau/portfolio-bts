@@ -43,3 +43,11 @@ Branchez votre appareil Android en USB avec le débogage activé, puis :
 ```bash
 adb install -r src-tauri/gen/android/app/build/outputs/apk/release/app-arm64-v8a-release.apk
 ```
+
+### 4. Le lancer en mode développeur
+
+```bash
+pnpm tauri android dev
+```
+
+Et voilà, vous pouvez lancer l'application en mode développeur :)
