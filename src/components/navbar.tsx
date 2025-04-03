@@ -12,7 +12,7 @@ import {
 import { DATA } from "@/data/resume";
 import { useScrollTo } from "@/lib/useScrollTo";
 import { cn } from "@/lib/utils";
-import { BookOpenIcon, BrainIcon, BriefcaseIcon, HomeIcon, SchoolIcon, TrafficConeIcon, UserIcon } from "lucide-react";
+import { BrainIcon, BriefcaseIcon, HomeIcon, SchoolIcon, TrafficConeIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -202,36 +202,6 @@ export default function Navbar() {
             </TooltipTrigger>
             <TooltipContent>
               <p>Projets</p>
-            </TooltipContent>
-          </Tooltip>
-        </DockIcon>
-        <DockIcon>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              {isHome ? (
-                <button
-                  onClick={() => scrollTo("projects")}
-                  className={cn(
-                    buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
-                  )}
-                >
-                  <TrafficConeIcon className="size-4" />
-                </button>
-              ) : (
-                <Link
-                  href="/blog"
-                  className={cn(
-                    buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
-                  )}
-                >
-                  <BookOpenIcon className="size-4" />
-                </Link>
-              )}
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Veille Technologique</p>
             </TooltipContent>
           </Tooltip>
         </DockIcon>
